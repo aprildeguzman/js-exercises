@@ -1,0 +1,14 @@
+.card {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.select-arithmetic {
+    margin-left: 30%;
+}
+
+.container-answer {
+    margin-left: 30%;
+}
