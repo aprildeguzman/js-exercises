@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+body {
+    background-color: #f0ffff;
+}
+
+.navbar {
+    background-color: rgb(33, 49, 70);
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #6495ed;
+}
+
+.container {
+    position: absolute;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffe4c4;
+    box-shadow: 5px 10px #888888;
+}
+
+.add-task, .grp-btn{
+    margin: 5px;
+}
+
+input {
+    padding: 5px 3px;
+    width: 80%;
+}
+
+button {
+    background-color:#6495ed;
+    color: #fafafa;
+    padding: 7px 6px;
+    border-radius: 2px;
+    border: none;
+}
+
+button:hover{
+    background-color: #98abc2;
+}
+
+.task-container {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+ul {
+    padding: 2%;
+}
+
+li {
+    list-style: none;
+    padding: 2%;
+    background-color: #f0ffff;
+    margin: 12px;
+    box-shadow: 2px 5px #888888;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+li:hover{
+    background-color: #e0e0e0;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}

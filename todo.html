@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To Do List</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/todo-style.css">
+    <!--Favicon-->
+    <link rel="icon" href="assets/images/todo-icon.png" type="image/jpg" sizes="16x16">
+    
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Go back to Index</a>
+        <a class="active" href="#">To Do List</a>
+    </div>
+
+    <div class="container">
+        <h1>To Do List</h1>
+
+        <!--For adding a task-->
+        <div class="add-task">
+            <input type="text" id="add-input" placeholder="What are you gonna do today?">
+
+        </div>
+
+        <div class="grp-btns">
+            <button type="button" id="btn-remove">Remove Task</button>
+            <button type="button" id="btn-add">Add Task</button>
+            <button type="button" id="btn-clear">Clear All</button>
+        </div>
+
+        <!--Displaying task list-->
+        <div class="task-container">
+            <ul id="task-list">
+               
+            </ul>
+        </div>
+    </div>
+
+    <script src="assets/js/todo.js"></script>
+
+</body>
+</html>
